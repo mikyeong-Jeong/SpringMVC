@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.0.final using JasperReports Library version 6.21.0-4f56c4f36cd19e17675219a9ac4692d5f0f13b06  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="SampleReportDB" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ae5347bd-26c3-4025-9d83-0b112695722f">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="477"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="523"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="429"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="560"/>
+	<subDataset name="Dataset1" uuid="97ada374-fc4a-4ace-af71-c3ff62493513">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[SELECT "NAME", "REGDATE" FROM "MEMBER"]]>
+		</queryString>
+	</subDataset>
+	<parameter name="logo" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT * 
+FROM MEMBER]]>
+	</queryString>
+	<field name="ID" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="ID"/>
+		<property name="com.jaspersoft.studio.field.label" value="ID"/>
+	</field>
+	<field name="EMAIL" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="EMAIL"/>
+		<property name="com.jaspersoft.studio.field.label" value="EMAIL"/>
+	</field>
+	<field name="PASSWORD" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="PASSWORD"/>
+		<property name="com.jaspersoft.studio.field.label" value="PASSWORD"/>
+	</field>
+	<field name="NAME" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="NAME"/>
+		<property name="com.jaspersoft.studio.field.label" value="NAME"/>
+	</field>
+	<field name="REGDATE" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="REGDATE"/>
+		<property name="com.jaspersoft.studio.field.label" value="REGDATE"/>
+	</field>
+	<title>
+		<band height="48" splitType="Stretch">
+			<staticText>
+				<reportElement x="-20" y="0" width="595" height="48" uuid="3238cff7-1cb4-417d-ab56-1436eae9c301"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="25" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[재 직 증 명 서]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="728" splitType="Stretch">
+			<rectangle>
+				<reportElement x="120" y="20" width="160" height="50" uuid="e2e4768d-9364-4b38-aeb2-d6fe1ed84663"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="120" y="70" width="160" height="50" uuid="4960df59-a2de-4dbe-bf95-d0bbb6bc7f8f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="120" y="120" width="160" height="50" uuid="0c62c6bc-66b8-43f6-a88b-738e97b108ed"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="120" y="170" width="435" height="50" uuid="db1557da-4ff7-4b11-a60e-4de1f7e34def"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="400" y="20" width="155" height="50" uuid="aba417d0-6f62-4f56-a164-7e6a1beb104a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="280" y="20" width="120" height="50" uuid="67c874d5-ea88-44b2-a8a0-e39cd3304381"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="20" width="120" height="50" uuid="527603b0-822a-4191-ae49-f2c95e698098"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="70" width="120" height="50" uuid="826ae475-b93d-4d1b-b94e-1353ccff3aed"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="120" width="120" height="50" uuid="95a35729-4a82-44b6-a497-79edf2e9784c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="170" width="120" height="50" uuid="66283db1-9f69-490d-974e-9de8aa5385e7"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="220" width="120" height="50" uuid="ef4711ab-a025-4b6c-8113-821241dfa73e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="400" y="70" width="155" height="50" uuid="0194c07f-566a-4461-8602-64f853057d7c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="400" y="120" width="155" height="50" uuid="b2c9f23a-66d1-469c-afdb-c51169e2fa74"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="120" y="220" width="435" height="50" uuid="877cc338-749b-4250-8d7a-461314d2a208"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="280" y="70" width="120" height="50" uuid="6e0dbddf-be03-4061-b178-ca128d7f6feb"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="280" y="120" width="120" height="50" uuid="0f742ed5-9980-4b4f-872f-072b79e36edb"/>
+			</rectangle>
+			<textField>
+				<reportElement x="120" y="70" width="160" height="50" uuid="3a1dde88-ad36-4646-8999-d539fc2a63de"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NAME}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="280" y="70" width="120" height="50" uuid="4bb1db1b-4fe2-4c6f-b9ec-510f0781f4ec"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[생 년 월 일]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="20" width="120" height="50" uuid="767d9481-43e7-4e2e-b59d-21aed21fa697"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[직 위]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="120" width="120" height="50" uuid="c109fd17-0439-4fe8-9f99-d7b79f810007"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[주민등록번호]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="20" width="120" height="50" uuid="342a4a11-1b0c-4737-a82d-ce116f6dcf6e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[소 속]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="70" width="120" height="50" uuid="883899e5-1ea4-458c-905f-7e9cdb584846"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[성명]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="120" width="120" height="50" uuid="a08ee458-a4eb-48fa-826a-7b40ea4a8171"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[입사년월일]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="170" width="120" height="50" uuid="0f8c537c-8e46-4e25-9eb6-98b928a75d6a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[본 적]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="220" width="120" height="50" uuid="334e2cd6-60d1-421c-ae95-f2848d30a1fd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[주 소]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="290" width="320" height="40" uuid="4ba31297-ac6d-4c5e-8d2d-caa1c7f7b07e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[        (용 도 :                                     	   )]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="350" width="320" height="30" uuid="71fa9e1d-1558-4c5b-a889-da644ea29f06"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[        상기와 같이 재직하고 있음을 증명함.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="540" width="140" height="30" uuid="5b3b6e04-ccb8-4829-aade-f77d876a4d2e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[20   년   월   일]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="610" width="555" height="50" uuid="a6089e1d-ef86-4d59-9c4e-4191a4cb3dc8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="25" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[인포와이즈]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="670" width="555" height="30" uuid="d46acaac-de3f-4ffc-bfc4-bcf4cc911166"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[대표이사 이휘정]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="220" width="120" height="50" uuid="829afcd1-3dd5-4a84-b7a3-141c986b8c77"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[테스트용]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="170" width="435" height="50" uuid="1ff4a18f-c649-46bb-a05b-dc38c47d07a4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[테스트용]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="120" width="120" height="50" uuid="7bd9cc88-febf-4cff-b10b-5a47abdbed63"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[테스트용]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="70" width="120" height="50" uuid="4a4cd656-bf2a-48e0-8a7c-9b32140bed6c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[테스트용]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="20" width="120" height="50" uuid="0360af46-acd0-43b1-8f13-497f1c5149b1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[테스트용]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="20" width="120" height="50" uuid="e96f9280-1eff-4993-b8dd-a90e25ddc217"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[테스트용]]></text>
+			</staticText>
+			<textField pattern="yyyy-MM-dd">
+				<reportElement x="120" y="120" width="160" height="50" uuid="0b38dd95-2d2e-4d4b-8dfa-b8d3bcb51ca9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" pdfFontName="fonts/NANUMGOTHICCODING.TTF" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="330" y="660" width="50" height="50" uuid="f0eed6d8-5931-4968-b51d-5e54116086f4"/>
+				<imageExpression><![CDATA[$P{logo}]]></imageExpression>
+			</image>
+		</band>
+	</columnHeader>
+</jasperReport>

@@ -20,4 +20,9 @@ public class TestController {
 		log.info("/hello 요청 >> HelloController() 실행");
 		return "hello";
 	}
+	@GetMapping("/jasper")
+	public String JasperPageController(){
+		
+		return "jasper";
+	}
 }
